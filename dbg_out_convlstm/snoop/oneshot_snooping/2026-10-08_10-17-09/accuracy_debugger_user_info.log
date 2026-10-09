@@ -1,0 +1,28 @@
+Snooping: 2026-10-08 10:17:09,337 | INFO | Running model snooping...
+Snooping: 2026-10-08 10:17:11,184 | INFO | ONNX model simplification completed
+Snooping: 2026-10-08 10:17:11,557 | INFO | Generating reference data for /home/haanh22/2.43.0.260128/project/convlstm/dbg_out_convlstm/snoop/oneshot_snooping/2026-10-08_10-17-09/best_model_unrolled_1_optimized.onnx
+Snooping: 2026-10-08 10:18:11,390 | INFO | Completed reference output generation.
+ConverterLogger: 2026-10-08 10:18:11,570 | WARNING | Unable to register converter supported Operation [Inverse:Version 1] with your Onnx installation. Converter will bail if Model contains this Op.
+ConverterLogger: 2026-10-08 10:18:11,589 | WARNING | Unable to register converter supported Operation [RMSNormalization:Version 23] with your Onnx installation. Converter will bail if Model contains this Op.
+OptimizerLogger: 2026-10-08 10:18:42,557 | WARNING | --backend option is deprecated, use --target_backend.
+OptimizerLogger: 2026-10-08 10:18:42,753 | WARNING | Unused Input nodes found: []
+OptimizerLogger: 2026-10-08 10:19:13,525 | WARNING | Unused Input nodes found: []
+OptimizerLogger: 2026-10-08 10:19:13,703 | WARNING | tensor names in source graph are not all contained by framework tracing record in stage op_graph_optimization, please check below tensors: ['const_axes__6422']
+OptimizerLogger: 2026-10-08 10:19:13,708 | WARNING | --backend option is deprecated, use --target_backend.
+OptimizerLogger: 2026-10-08 10:19:13,710 | INFO | INFO_INITIALIZATION_SUCCESS: 
+OptimizerLogger: 2026-10-08 10:19:17,999 | WARNING | --backend option is deprecated, use --target_backend.
+OptimizerLogger: 2026-10-08 10:19:18,094 | INFO | Writing source topology to DLC...
+OptimizerLogger: 2026-10-08 10:19:18,096 | INFO | INFO_CONVERSION_SUCCESS: Conversion completed successfully
+OptimizerLogger: 2026-10-08 10:19:18,111 | INFO | INFO_WRITE_SUCCESS: 
+Snooping: 2026-10-08 10:19:18,146 | WARNING | --backend option is deprecated, use --target_backend.
+Snooping: 2026-10-08 10:41:02,661 | INFO | Quantization completed successfully: 
+Snooping: 2026-10-08 10:41:02,686 | WARNING | --backend option is deprecated, use --target_backend.
+Snooping: 2026-10-08 10:41:03,095 | INFO | encodings JSON saved at: /home/haanh22/2.43.0.260128/project/convlstm/dbg_out_convlstm/snoop/oneshot_snooping/2026-10-08_10-17-09/inference_engine/base_quantized_encoding.json 
+Snooping: 2026-10-08 10:41:03,096 | INFO | Quantized Model saved at: /home/haanh22/2.43.0.260128/project/convlstm/dbg_out_convlstm/snoop/oneshot_snooping/2026-10-08_10-17-09/inference_engine/base_quantized.dlc 
+Snooping: 2026-10-08 10:47:21,641 | INFO | oneshot report plots saved at /home/haanh22/2.43.0.260128/project/convlstm/dbg_out_convlstm/snoop/oneshot_snooping/2026-10-08_10-17-09/plots
+Snooping: 2026-10-08 10:47:21,650 | INFO | Cleaning up compilation artifacts:
+Converter DLC: /home/haanh22/2.43.0.260128/project/convlstm/dbg_out_convlstm/snoop/oneshot_snooping/2026-10-08_10-17-09/inference_engine/base.dlc
+Quantizer DLC: /home/haanh22/2.43.0.260128/project/convlstm/dbg_out_convlstm/snoop/oneshot_snooping/2026-10-08_10-17-09/inference_engine/base_quantized.dlc
+Offline Graph: /home/haanh22/2.43.0.260128/project/convlstm/dbg_out_convlstm/snoop/oneshot_snooping/2026-10-08_10-17-09/inference_engine/base_quantized.dlc.bin
+Snooping: 2026-10-08 10:47:22,188 | INFO | Snooping Completed. CSV Report generated at: /home/haanh22/2.43.0.260128/project/convlstm/dbg_out_convlstm/snoop/oneshot_snooping/2026-10-08_10-17-09/oneshot_layerwise.csv
+Snooping: 2026-10-08 10:47:22,189 | INFO | Json Report generated at: /home/haanh22/2.43.0.260128/project/convlstm/dbg_out_convlstm/snoop/oneshot_snooping/2026-10-08_10-17-09/oneshot_layerwise.json
